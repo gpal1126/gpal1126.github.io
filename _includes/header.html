@@ -6,7 +6,7 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">
-        {%- if site.dribbble_username -%}
+        <!-- {%- if site.dribbble_username -%}
           <li>
             <a target="_blank" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fab fa-dribbble-square" title="Dribble link"></i>
@@ -26,7 +26,7 @@
               <i class="fab fa-flickr" title="Flickr link"></i>
             </a>
           </li>
-        {%- endif -%}
+        {%- endif -%} -->
         {%- if site.github_username -%}
           <li>
             <a target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
@@ -34,7 +34,7 @@
             </a>
           </li>
         {%- endif -%}
-        {%- if site.stackoverflow_username -%}
+        <!-- {%- if site.stackoverflow_username -%}
           <li>
             <a target="_blank" href="https://stackoverflow.com/users/{{ site.stackoverflow_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fab fa-stack-overflow" title="Stackoverflow link"></i>
@@ -89,14 +89,14 @@
               <i class="fab fa-google-plus" title="Google plus link"></i>
             </a>
           </li>
-        {%- endif -%}
-        {%- if site.orcid_username -%}
+        {%- endif -%} -->
+        <!-- {%- if site.orcid_username -%}
           <li>
             <a target="_blank" href="https://orcid.org/{{ site.orcid_username | escape }}" class="button button--sacnite button--round-l">
               <i class="fab fa-orcid" title="ORCiD link"></i>
             </a>
           </li>
-        {%- endif -%}
+        {%- endif -%} -->
         {% for link in site.additional_links %}
           <li>
             {% include a.html href=link.url class="button button--sacnite button--round-l" %}
