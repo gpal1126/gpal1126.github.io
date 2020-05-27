@@ -49,7 +49,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  사용기술 : <mark>JS</mark> <mark>Node.js</mark> <mark>MySQL</mark> <mark>JS</mark> <mark>JS</mark>
+  사용기술 : <mark>JS</mark> <mark>jQuery</mark> <mark>Node.js</mark> <mark>Cordova</mark> <mark>Java</mark> <mark>HTML</mark> <mark>CSS</mark> <mark>MySQL</mark> <mark>Oracle</mark> <mark>SQLite</mark> <mark>Git</mark> <mark>Linux</mark> <mark>KT Cloud</mark>
     - Lists
     - Tables
     - <a href="google.com">Links</a>

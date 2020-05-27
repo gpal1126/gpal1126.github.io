@@ -1,6 +1,12 @@
 # gpal1126.github.io
 햄의 포트폴리오 만들기
 
+### 사용 기술 및 스펙
+Ruby 2.x ver
+Bundler 2.x ver
+gem 3.x ver
+yml
+
 
 ## 레파지토리 생성하기
 ![create](https://user-images.githubusercontent.com/15043631/82905746-353c9280-9f9f-11ea-819d-38becdf24af2.png)
@@ -58,7 +64,7 @@ gem install bundler:2.1.0
 bundle install
 ```
 
-### 제킬 실행
+### jekyll 실행
 ```
 bundle exec jekyll serve
 ```
