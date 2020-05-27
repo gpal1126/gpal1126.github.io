@@ -63,3 +63,5 @@ bundle install
 bundle exec jekyll serve
 ```
 
+### url : localhost:4000 으로 실행
+
