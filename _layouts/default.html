@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
+<!-- css 추가 -->
+<head>
+  <link rel="stylesheet" href="/assets/common.css"> <!-- common css -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<!-- css 추가 -->
+
 {%- include head.html -%}
 
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 
   {%- include header.html -%}
 
+  <div class="popup" style="display: none;"></div> <!-- 팝업 -->
+  
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
 
@@ -28,9 +37,10 @@
         {%- include education.html -%}
       {%- endif -%}
 
-      {%- if site.more_content -%}
+      <!-- {%- if site.more_content -%}
         {%- include more.html -%}
       {%- endif -%}
+      -->
 
     </div>
   </main>
@@ -39,6 +49,7 @@
   {% if site.darkmode == false %}
     <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
   {% endif %}
+  
 </body>
 
 </html>

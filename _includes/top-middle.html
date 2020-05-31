@@ -1,3 +1,4 @@
+
 <div class="row clearfix layout layout-top-middle">
   <div class="col-xs-12 col-print-12 details">
     {%- if include.item.name -%}<h4>{{ include.item.name }}</h4>{%- endif -%}
@@ -12,6 +13,7 @@
       <p><b>{{ job.title }}</b></p>
       <p>{{ job.dates }}</p>
     {% endfor %}
+
     {%- if include.item.github -%}
       <p class="no-print">
         <a href="https://github.com/{{ include.item.github }}" target="_blank">
@@ -22,8 +24,14 @@
   </div>
   <div class="col-xs-12 col-print-12">
     {%- if include.item.quote -%}
-      <p class="quote">{{ include.item.quote }}</p>
+    <p class="quote">{{ include.item.quote }}</p>
     {%- endif -%}
+    
+    <!-- 프로젝트 이미지 추가 -->
+    <!-- {%- if include.item.proj_img -%} {{ include.item.proj_img }} {%- endif -%} -->
+    <!-- 프로젝트 이미지 추가 -->
+
+    <br/>
     {{ include.item.description | strip | markdownify }}
   </div>
 </div>

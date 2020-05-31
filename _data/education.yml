@@ -3,25 +3,26 @@
   name: KH정보교육원
   dates: 2015.06 - 2015.12
   qualification: Oracle기반의 웹어플리케이션 개발 Java 전문가 과정
-  quote: >
-    Short institution or course description (optional)
+  # quote: >
+  #  Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    - Sharvley [ 파일 공유 시스템 ] 개발
+    - 모범상을 받으며 수료
 
 - layout: left
   name: 한양여자대학교
   dates: 2011 - 2020
   qualification: 컴퓨터정보과
-  quote: >
-    Short institution or course description (optional)
+  # quote: >
+  #  Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    - PHP 기반 웨딩 서비스 시스템 개발
 
 - layout: left
   name: 금천고등학교
   dates: 2008 - 2011
   qualification: 이과
-  quote: >
-    Short institution or course description (optional)
+  # quote: >
+  #  Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
-    Description of qualification    
+    - IT 기기에 관심이 많은 학생이였음.

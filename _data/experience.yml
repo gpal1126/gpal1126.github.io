@@ -1,10 +1,24 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+  company: 개인 프로젝트
+  link:
+  job_title: 프리랜서
+  dates: 2019.08-2020.06
   quote: >
-   Short description of the company (optional)
+    
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    - chinaG9 [ 구매대행/배송대행 서비스 ] 개발 ing
+
+- layout: left
+  company: Neopad
+  link: www.neopad.com
+  job_title: 대리
+  dates: 2016.02-2020.06
+  quote: >
+    
+  description: | # this will include new lines to allow paragraphs
+    - Ourhopes [ 의원 및 후원 정보 관리 시스템 ] 개발
+    - Hangul [ E-Learning ] 개발
+    - surveyPro [ 선거투표/설문조사 서비스(Mobile) ] 개발
+    - IDO [ SNS Contents Service ] 개발
+    
