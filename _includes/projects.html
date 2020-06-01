@@ -3,8 +3,10 @@
   <h3>{{ site.projects_title | default: "Projects" }}</h3>
   {% for project in site.data.projects %}
     {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
-    <!-- <br/>
+    <!-- 추가 -->
+    <br/>
     <hr class="line" />
-    <br/> -->
+    <br/>
+    <!-- 추가 -->
   {% endfor %}
 </div>
