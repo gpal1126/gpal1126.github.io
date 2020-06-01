@@ -85,7 +85,7 @@
 #    <mark>JS(ES5/ES6)</mark> <mark>jQuery</mark> <mark>Node.js(8.x)</mark> <mark>HTML</mark> <mark>CSS</mark> <mark>MySQL(5.x)</mark> <mark>Git</mark> <mark>Linux(CentOS 6.x)</mark> <mark>KT Cloud</mark>
 
   # proj_img: ./img/ourhopes/1.png
-  proj_img: <div class="proj-img" id="projImg_2"><img src="./img/ourhopes/1.png" /></div>
+# proj_img: <div class="proj-img" id="projImg_2"><img src="./img/ourhopes/1.png" /></div>
 
 - layout: top-middle
   name: Hangul E-Learning
