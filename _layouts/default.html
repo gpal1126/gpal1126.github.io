@@ -3,7 +3,9 @@
 
 <!-- css 추가 -->
 <head>
-  <link rel="stylesheet" href="/assets/common.css"> <!-- common css -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css"> <!-- swiper css -->
+  <link rel="stylesheet" href="/assets/css/common.css"> <!-- common css -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <!-- css 추가 -->
@@ -14,7 +16,26 @@
 
   {%- include header.html -%}
 
-  <div class="popup" style="display: none;"></div> <!-- 팝업 -->
+  <div class="popup" style="visibility: hidden;">
+    <div class="swiper-container gallery-top" style="">
+      <div class="swiper-wrapper">
+        <!-- <div class="swiper-slide" style="background-image:url(./img/chinag9/1.png)"></div>
+        <div class="swiper-slide" style="background-image:url(./img/chinag9/2.png)"></div>
+        <div class="swiper-slide" style="background-image:url(./img/chinag9/3.png)"></div>
+        <div class="swiper-slide" style="background-image:url(./img/chinag9/4.png)"></div> -->
+      </div>
+      <div class="swiper-button-next swiper-button-white"></div>
+      <div class="swiper-button-prev swiper-button-white"></div>
+    </div>
+    <div class="swiper-container gallery-thumbs" style="">
+      <div class="swiper-wrapper">
+        <!-- <div class="swiper-slide" style="background-image:url(./img/chinag9/1.png)"></div>
+        <div class="swiper-slide" style="background-image:url(./img/chinag9/2.png)"></div>
+        <div class="swiper-slide" style="background-image:url(./img/chinag9/3.png)"></div>
+        <div class="swiper-slide" style="background-image:url(./img/chinag9/4.png)"></div> -->
+      </div>
+    </div>
+  </div> <!-- 팝업 -->
   
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
@@ -50,6 +71,7 @@
     <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
   {% endif %}
   
+  <script type="text/javascript" src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 </body>
 
 </html>
