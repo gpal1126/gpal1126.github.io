@@ -46,60 +46,61 @@
   # proj_img: ./img/chinag9/1.png
   proj_img: <div class="proj-img" id="projImg_1"><img src="./img/chinag9/1.png" /></div>
 
-#- layout: top-middle
-#  name: Ourhopes
-#  link: www.ourhopes.kr
-#  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-#  quote: >
-#    의원 및 후원 정보 관리 시스템
-#
-#  description: | # this will include new lines to allow paragraphs
-#    <b>프로젝트 개요</b>
-#    - 의원 정보를 홈페이지로 관리 
-#    - 의원 후원하기 관리
-#    - 정책주제별/지역별 자유토론 관리
-#    - 선거투표 서비스 관리
-#    - 설문조사 서비스 관리
-#    <br/>
-#    <br/>
-#
-#    <b>참여인원 및 기간</b>
-#    - 참여인원 : 2명 / 개발기간 : 2019.08 ~ 2020.05
-#    <br/>
-#    <br/>
-#
-#    <b>맡은 역할</b>
-#    - 디자인 퍼블리싱
-#    - crop을 이용한 이미지 업로드 구현
-#    - 주소 DB 행정구역별(시/도, 시/군/구, 읍/면/동) 마이그레이션 작업 및 주소 데이터 선거구에 적용
-#    - Express MRCS(Model Routes Controllers Services) 패턴, Sequelize를 이용한 모델링 적용
-#    - 의원 정보 및 후원 정보 등록 기능 구현
-#    - 선거투표 서비스 등록 기능 구현
-#    - KT Cloud를 이용한 배포, 프로젝트 Git 연동 
-#    - 포트 기반 가상 호스트 설정
-#    <br/>
-#    <br/>
-#
-#    <b>사용기술</b>
-#    &nbsp;&nbsp;
-#    <mark>JS(ES5/ES6)</mark> <mark>jQuery</mark> <mark>Node.js(8.x)</mark> <mark>HTML</mark> <mark>CSS</mark> <mark>MySQL(5.x)</mark> <mark>Git</mark> <mark>Linux(CentOS 6.x)</mark> <mark>KT Cloud</mark>
+- layout: top-middle
+  name: Ourhopes
+  link: www.ourhopes.kr
+  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    의원 정보 및 스케줄 관리와 후원 관리 시스템
 
+  description: | # this will include new lines to allow paragraphs
+    <b>프로젝트 개요</b>
+    - 의원 정보와 스케줄 관리 
+    - 의원 후원하기 관리
+    - 정책주제별/지역별 자유토론 관리
+    - 의원 선거투표 서비스 관리
+    - 의원 관련 설문조사 서비스 관리
+    <br/>
+    <br/>
+
+    <b>참여인원 및 기간</b>
+    - 참여인원 : 2명 / 개발기간 : 2019.08 ~ 2020.05
+    <br/>
+    <br/>
+
+    <b>맡은 역할</b>
+    - 디자인 퍼블리싱
+    - 데이터베이스 스키마 설계 및 구축
+    - 주소 DB 행정구역별(시/도, 시/군/구, 읍/면/동) 마이그레이션 작업 및 주소 데이터 선거구에 적용
+    - crop을 이용한 이미지 편집과 multer를 이용한 업로드 구현
+    - Express MRCS(Model Routes Controllers Services) 패턴, Sequelize를 이용한 모델링 적용
+    - 의원 정보 및 후원 정보 관리 기능 구현
+    - 선거투표 서비스 등록 기능 구현
+    - KT Cloud를 이용한 배포, 프로젝트 Git 연동 
+    - 포트 기반 가상 호스트 설정
+    <br/>
+    <br/>
+
+    <b>사용기술</b>
+    &nbsp;&nbsp;
+    <mark>JS(ES5/ES6)</mark> <mark>jQuery</mark> <mark>Node.js(8.x)</mark> <mark>HTML</mark> <mark>CSS</mark> <mark>MySQL(5.x)</mark> <mark>Git</mark> <mark>Linux(CentOS 6.x)</mark> <mark>KT Cloud</mark>
   # proj_img: ./img/ourhopes/1.png
-# proj_img: <div class="proj-img" id="projImg_2"><img src="./img/ourhopes/1.png" /></div>
+  proj_img: <div class="proj-img" id="projImg_2"><img src="./img/ourhopes/1.png" /></div>
 
 - layout: top-middle
   name: Hangul E-Learning
   link: www.hangul.ac
   # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
-    한글 이러닝 시스템
+    외국인이 한글을 보다 쉽고 편하게 배울 수 있도록 만든 한글 이러닝 시스템
 
   description: | # this will include new lines to allow paragraphs
     <b>프로젝트 개요</b>
     - 입문부터 상급코스까지 다양한 컨텐츠를 통해 한글을 보다 쉽게 배울 수 있도록 서비스 제공
-    - 학습하는 챕터 북마크 기능 및 스터디 로그를 통해 학습 히스토리 관리
-    - chapter 별 테스트를 통한 성적 통계 관리
-    - 코스 별 테스트를 통해 한글 실력 판단
+    - 학습하는 챕터 북마크 기능와 단어 저장 기능 관리
+    - 학습하는 스터디마다 로그를 남겨 학습 히스토리 관리
+    - 챕터 별 테스트를 통한 성적 통계 관리
+    - 코스 별 테스트를 통해 점수를 기록하여 실력 관리
     <br/>
     <br/>
 
@@ -129,76 +130,81 @@
   # proj_img: ./img/hangul/1.png
   proj_img: <div class="proj-img" id="projImg_3"><img src="./img/hangul/1.png" /></div>
 
-#- layout: top-middle
-#  name: surveyPro
-#  link: www.surveyPro.kr
-#  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-#  quote: >
-#    선거투표/설문조사 서비스 시스템 ( Mobile 전용 )
-#
-#  description: | # this will include new lines to allow paragraphs
-#    <b>프로젝트 개요</b>
-#    - 선거투표 서비스 관리
-#    - 설문조사 서비스 관리
-#    <br/>
-#    <br/>
-#
-#    <b>참여인원 및 기간</b>
-#    - 참여인원 : 2명 / 개발기간 : 2017.03 ~ 2017.12
-#    <br/>
-#    <br/>
-#
-#    <b>맡은 역할</b>
-#    - 디자인 퍼블리싱
-#    - crop을 이용한 이미지 업로드 구현
-#    - 선거투표 서비스 등록 기능 구현
-#    - 선거투표 결과 차트 관리 구현
-#    - Excel 파일 업로드 데이터 저장 구현
-#    - 작성된 선거투표/설문조사 내용 카카오 알림톡 전송 기능 구현
-#    - KT Cloud를 이용한 배포, 프로젝트 Git 연동 
-#    - 포트 기반 가상 호스트 설정
-#    <br/>
-#    <br/>
-#
-#    <b>사용기술</b>
-#    &nbsp;&nbsp;
-#    <mark>JS</mark> <mark>jQuery</mark> <mark>Node.js(8.x)</mark> <mark>HTML</mark> <mark>CSS</mark> <mark>MySQL(5.x)</mark> <mark>Git</mark> <mark>Linux(CentOS 6.x)</mark> <mark>KT Cloud</mark>
-#
-#  # proj_img: ./img/surveypro/1.png
-#  proj_img: <div class="proj-img" id="projImg_4"><img src="./img/surveypro/1.png" /></div>
-#
-#- layout: top-middle
-#  name: IDO
-#  link: www.idoinfo.net
-#  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-#  quote: >
-#    SNS 콘텐츠 서비스 시스템
-#
-#  description: | # this will include new lines to allow paragraphs
-#    <b>프로젝트 개요</b>
-#    - SNS 콘텐츠 서비스 관리
-#    - 설문조사 서비스 관리
-#    - 설문 서비스 통계 관리 
-#    <br/>
-#    <br/>
-#
-#    <b>참여인원 및 기간</b>
-#    - 참여인원 : 2명 / 개발기간 : 2016.05 ~ 2017.02
-#    <br/>
-#    <br/>
-#
-#    <b>맡은 역할</b>
-#    - 디자인 퍼블리싱
-#    - 메인 무한 스크롤 기능 구현
-#    - 설문조사 콘텐츠 서비스 기능 구현
-#    - 포트 기반 가상 호스트 설정
-#    <br/>
-#    <br/>
-#
-#    <b>사용기술</b>
-#    &nbsp;&nbsp;
-#    <mark>JS</mark> <mark>jQuery</mark> <mark>Node.js(8.x)</mark> <mark>HTML</mark> <mark>CSS</mark> <mark>MySQL(5.x)</mark> <mark>Git</mark> <mark>Linux(CentOS 6.x)</mark> <mark>KT Cloud</mark>
-#
-#
-#  # proj_img: ./img/ido/1.png
-#  proj_img: <div class="proj-img" id="projImg_5"><img src="./img/ido/1.png" /></div>
+- layout: top-middle
+  name: surveyPro
+  link: www.surveyPro.kr
+  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    선거투표/설문조사 서비스 시스템 ( Mobile 전용 )
+
+  description: | # this will include new lines to allow paragraphs
+    <b>프로젝트 개요</b>
+    - 선거 기본 정보 등록, 후보자 정보 등록 등 선거투표 관련 서비스 관리
+    - 설문 기본 정보 등록, 단일선택/다중선택/순위형/의견란 유형 선택 등록 등 설문조사 관련 서비스 관리
+    - 응답자 선정, 이메일 or 알림톡 전송 관리
+    - 오피니언 리더(설문/선거 상시 참여자) 관리
+    <br/>
+    <br/>
+
+    <b>참여인원 및 기간</b>
+    - 참여인원 : 2명 / 개발기간 : 2017.03 ~ 2017.12
+    <br/>
+    <br/>
+
+    <b>맡은 역할</b>
+    - 디자인 퍼블리싱
+    - 데이터베이스 스키마 설계 및 구축
+    - crop을 이용한 이미지 편집과 업로드 기능 구현
+    - 선거투표 서비스 등록 기능 구현
+    - 선거투표 서비스 참여 기능 구현
+    - highcharts를 이용한 선거투표 결과 차트 관리 구현
+    - Excel 파일 업로드 데이터 저장 구현
+    - 작성된 선거투표/설문조사 내용 카카오 알림톡 전송 기능 구현
+    - KT Cloud를 이용한 배포, 프로젝트 Git 연동 
+    - 포트 기반 가상 호스트 설정
+    <br/>
+    <br/>
+
+    <b>사용기술</b>
+    &nbsp;&nbsp;
+    <mark>JS</mark> <mark>jQuery</mark> <mark>Node.js(8.x)</mark> <mark>HTML</mark> <mark>CSS</mark> <mark>MySQL(5.x)</mark> <mark>Git</mark> <mark>Linux(CentOS 6.x)</mark> <mark>KT Cloud</mark>
+
+  # proj_img: ./img/surveypro/1.png
+  proj_img: <div class="proj-img" id="projImg_4"><img src="./img/surveypro/1.png" /></div>
+
+- layout: top-middle
+  name: IDO
+  link: www.idoinfo.net
+  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    블로그 형식의 SNS 콘텐츠 서비스와 컨텐츠 관련 설문조사 참여 및 결과 통계 시스템
+
+  description: | # this will include new lines to allow paragraphs
+    <b>프로젝트 개요</b>
+    - SNS 콘텐츠 서비스 관리
+    - 단일선택/다중선택/순위형/별점형 등 설문조사 콘텐츠 서비스 관리
+    - 설문 참여 결과 통계 관리 
+    <br/>
+    <br/>
+
+    <b>참여인원 및 기간</b>
+    - 참여인원 : 2명 / 개발기간 : 2016.05 ~ 2017.02
+    <br/>
+    <br/>
+
+    <b>맡은 역할</b>
+    - 디자인 퍼블리싱
+    - 메인 무한 스크롤 기능 구현
+    - 단일선택/다중선택/순위형/별점형 등 설문조사 관련 콘텐츠 등록 기능 구현
+    - 설문조사 콘텐츠 참여 기능 구현
+    - 포트 기반 가상 호스트 설정
+    <br/>
+    <br/>
+
+    <b>사용기술</b>
+    &nbsp;&nbsp;
+    <mark>JS</mark> <mark>jQuery</mark> <mark>Node.js(8.x)</mark> <mark>HTML</mark> <mark>CSS</mark> <mark>MySQL(5.x)</mark> <mark>Git</mark> <mark>Linux(CentOS 6.x)</mark> <mark>KT Cloud</mark>
+
+
+  # proj_img: ./img/ido/1.png
+  proj_img: <div class="proj-img" id="projImg_5"><img src="./img/ido/1.png" /></div>
