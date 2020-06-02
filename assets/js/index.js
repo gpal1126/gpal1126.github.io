@@ -25,25 +25,51 @@ $(function(){
                 if( id === (i+1) ){
                     return val;
                 }
-            });
+            })[0];
 
-            console.log('projName:::'+projName);
-
+            console.log(projName);
+            projName = projName.replace(/\s*/g, '');
+            let length = 0;
+            switch(projName){
+                case 'chinag9':
+                    length = 4;
+                    break;
+                case 'ourhopes':
+                    length = 2;
+                    break;
+                case 'hangul':
+                    length = 1;
+                    break;
+                case 'surveypro':
+                    length = 1;
+                    break;
+                case 'ido':
+                    length = 10;
+                    break;
+            }
+            console.log('length:::'+length);
             let img = '';
-            for(let i=1; i<=4; i++){
+            for(let i=1; i<=length; i++){
                 img += '<div class="swiper-slide" style="background-image:url(./img/'+projName+'/'+i+'.png)"></div>';
             }
             $('.popup .gallery-top .swiper-wrapper').append(img);
             $('.popup .gallery-thumbs .swiper-wrapper').append(img);
 
-            swiperInit();   //스와이프 
+            swiperInit(length);   //스와이프 
         }
     });
 
-    function swiperInit(){
+    $('.close-btn').on('click', function(){
+        $('body').css({'overflow': ''});
+        $('.popup').css({'visibility': 'hidden'});
+        $('.popup .gallery-top .swiper-wrapper').empty();
+        $('.popup .gallery-thumbs .swiper-wrapper').empty();
+    })
+
+    function swiperInit(length){
         var galleryThumbs = new Swiper('.gallery-thumbs', {
             spaceBetween: 5,
-            slidesPerView: 5,
+            slidesPerView: length,
             loop: true,
             freeMode: true,
             loopedSlides: 5, //looped slides should be the same
