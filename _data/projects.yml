@@ -9,7 +9,7 @@
   description: | # this will include new lines to allow paragraphs
     <b>프로젝트 개요</b>
     - 구매대행/배송대행 신청
-    - 주문/배송 관리 / 취소/반품 관리 / 사고 관리 
+    - 주문/배송 관리, 취소/반품 관리, 사고 관리 
     - 관리자 주문 진행 관리
     - 대행수수료/통관목록/배송옵션/주문상태/무게비용 관리
     - 담당자/스태프/유저 관리
@@ -25,17 +25,17 @@
     <b>맡은 역할</b>
     - 구매대행/배송대행 서비스 기획/설계 및 구현
     - 데이터베이스 스키마 설계 및 구축
-    - KT Cloud를 이용한 서버 세팅 및 배포, 프로젝트 Git 연동 
-    - 포트 기반 가상 호스트 설정
     - 디자인 퍼블리싱
     - Express MRCS(Model Routes Controllers Services) 패턴, Sequelize를 이용한 모델링 적용
     - cheerio를 이용한 상품 정보 스크래핑, puppeteer 이용하여 URL 접근으로 상품 정보 크롤링 구현
     - cache 메모리와 SMS 발송을 이용한 휴대폰 번호 인증, 주문 관련 내용 카카오 알림톡 기능 구현
     - 네이버 파파고 NMT API를 이용한 번역, 로마자 변환
     - 네이버 아이디로 로그인 적용
-    - multer를 이용한 업로드
+    - multer를 이용한 업로드 구현
     - summernote를 이용한 게시판 작성, tui-grid를 이용한 리스트, 공통 게시판 구현
     - bcrypt 이용한 암호화 패스워드 관리, Helmet 사용/x-powered-by 미사용/쿠키 보안 옵션 설정으로 보안성 강화
+    - KT Cloud를 이용한 서버 세팅 및 배포, 프로젝트 Git 연동 
+    - proxy를 이용한 포트 기반 가상 호스트 설정
     <br/>
     <br/>
 
@@ -48,7 +48,7 @@
 
 - layout: top-middle
   name: Ourhopes
-  link: www.ourhopes.kr
+  link: www.telebee.net
   # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
     의원 정보 및 스케줄 관리와 후원 관리 시스템
@@ -72,12 +72,12 @@
     - 디자인 퍼블리싱
     - 데이터베이스 스키마 설계 및 구축
     - 주소 DB 행정구역별(시/도, 시/군/구, 읍/면/동) 마이그레이션 작업 및 주소 데이터 선거구에 적용
-    - crop을 이용한 이미지 편집과 multer를 이용한 업로드 구현
+    - Crop을 이용한 이미지 편집과 Multer를 이용한 업로드 구현
     - Express MRCS(Model Routes Controllers Services) 패턴, Sequelize를 이용한 모델링 적용
     - 의원 정보 및 후원 정보 관리 기능 구현
     - 선거투표 서비스 등록 기능 구현
     - KT Cloud를 이용한 배포, 프로젝트 Git 연동 
-    - proxy를 이용한 포트 기반 가상 호스트 설정
+    - Proxy를 이용한 포트 기반 가상 호스트 설정
     <br/>
     <br/>
 
@@ -114,13 +114,13 @@
     - Canvas를 이용한 자음/모음 animationn 및 drawing을 이용한 따라쓰기 기능 구현
     - 카운트 시간 내에 듣기 및 가상 키보드 입력기를 통한 쓰기 테스트 기능 구현
     - turn.js 를 이용한 flipbook 기능 구현
-    - chapter 별 키보드 입력/듣기/쓰기 학습 콘텐츠 및 북마크/단어장 저장 기능 구현
+    - Chapter 별 키보드 입력/듣기/쓰기 학습 콘텐츠 및 북마크/단어장 저장 기능 구현
     - 학습한 내용 스터디 로그에 기록하여 관리
-    - lesson 별 듣기/쓰기/문장만들기 테스트 성적 기록 및 통계 관리 구현
+    - Lesson 별 듣기/쓰기/문장만들기 테스트 성적 기록 및 통계 관리 구현
     - 오프라인 Mobile App을 위한 Node.js에서 Cordova로 마이그레이션 작업
     - 온라인/오프라인 데이터 동기화 작업
     - KT Cloud를 이용한 배포, 프로젝트 Git 연동 
-    - proxy를 이용한 포트 기반 가상 호스트 설정
+    - Proxy를 이용한 포트 기반 가상 호스트 설정
     <br/>
     <br/>
 
@@ -133,7 +133,7 @@
 
 - layout: top-middle
   name: surveyPro
-  link: www.surveyPro.kr
+  link: www.surveypro.kr
   # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
     선거투표/설문조사 플랫폼을 제공하여 링크를 통해 참여를 유도하고, 참여 결과를 차트로 표현하는 서비스 ( Mobile 전용 )
@@ -158,11 +158,11 @@
     - crop을 이용한 이미지 편집과 업로드 기능 구현
     - 선거투표 서비스 등록 기능 구현
     - 선거투표 서비스 참여 기능 구현
-    - highcharts를 이용한 선거투표 결과 차트 관리 구현
+    - highcharts.js를 이용한 선거투표 결과 차트 관리 구현
     - Excel 파일 업로드 데이터 저장 구현
     - 작성된 선거투표 링크를 이메일/SMS/알림톡으로 발송하는 기능 구현
     - KT Cloud를 이용한 배포, 프로젝트 Git 연동 
-    - proxy를 이용한 포트 기반 가상 호스트 설정
+    - Proxy를 이용한 포트 기반 가상 호스트 설정
     <br/>
     <br/>
 
@@ -178,7 +178,7 @@
   link: www.idoinfo.net
   # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
-    파트너에게 SNS 형식의 플랫폼을 제공하여 토픽 관련 콘텐츠와 설문조사 작성하면 유저가 참여한 결과를 통계화한 시스템
+    파트너에게 SNS 형식의 플랫폼을 제공하여 토픽 관련 콘텐츠와 설문조사를 작성하면 유저가 참여한 결과를 통계화한 시스템
 
   description: | # this will include new lines to allow paragraphs
     <b>프로젝트 개요</b>
@@ -196,10 +196,12 @@
 
     <b>맡은 역할</b>
     - 디자인 퍼블리싱
-    - 메인 무한 스크롤 기능 구현
+    - 데이터베이스 스키마 설계 및 구축
+    - 메인 페이지 무한 스크롤 기능 구현
     - 단일선택/다중선택/순위형/별점형 등 유형별 설문조사 관련 콘텐츠 등록 기능 구현
     - 설문조사 콘텐츠 참여 기능 구현
-    - proxy를 이용한 포트 기반 가상 호스트 설정
+    -	highcharts.js를 이용한 설문 결과 차트 관리 구현
+    - Proxy를 이용한 포트 기반 가상 호스트 설정
     <br/>
     <br/>
 
