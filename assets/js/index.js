@@ -38,7 +38,7 @@ $(function(){
                     length = 2;
                     break;
                 case 'hangul':
-                    length = 1;
+                    length = 21;
                     break;
                 case 'surveypro':
                     length = 1;
