@@ -3,7 +3,7 @@ $(function(){
         document.body.classList.add("dark");
     }
 
-    let projNameArr = [ 'chinag9', 'ourhopes', 'hangul', 'surveypro', 'ido' ];
+    let projNameArr = [ 'chinag9', 'ourhopes', 'hangul', 'surveypro', 'ido', 'karp', 'pvtraining', 'openNec' ];
 
     $('.proj-img').on({
         'mouseover': function(){
@@ -45,6 +45,15 @@ $(function(){
                     break;
                 case 'ido':
                     length = 10;
+                    break;
+                case 'karp':
+                    length = 3;
+                    break;
+                case 'pvtraining':
+                    length = 1;
+                    break;
+                case 'openNec':
+                    length = 2;
                     break;
             }
             console.log('length:::'+length);
