@@ -1,7 +1,7 @@
 # Project template
 - layout: top-middle
   name: chinaG9
-  link: www.chinag9.com
+  link: http://chinag9.com
   # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
     한국과 중국의 구매대행/배송대행 서비스를 제공해주는 시스템
@@ -49,7 +49,7 @@
 
 - layout: top-middle
   name: Ourhopes
-  link: www.telebee.net
+  link: http://telebee.net
   # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
     의원 정보 및 스케줄 관리와 후원 관리 시스템
@@ -90,7 +90,7 @@
 
 - layout: top-middle
   name: Hangul E-Learning
-  link: www.hangul.ac
+  link: http://hangul.ac
   # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
     영어, 일어, 중어로 외국인이 한글을 보다 쉽고 편하게 배울 수 있도록 만든 한글 이러닝 시스템
@@ -134,7 +134,7 @@
 
 - layout: top-middle
   name: surveyPro
-  link: www.surveypro.kr
+  link: http://surveypro.kr
   # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
     선거투표/설문조사 플랫폼을 제공하여 링크를 통해 참여를 유도하고, 참여 결과를 차트로 표현하는 서비스 ( Mobile 전용 )
@@ -176,7 +176,7 @@
 
 - layout: top-middle
   name: IDO
-  link: www.idoinfo.net
+  link: http://idoinfo.net
   # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
     파트너에게 SNS 형식의 플랫폼을 제공하여 토픽 관련 콘텐츠와 설문조사를 작성하면 유저가 참여한 결과를 통계화한 시스템
@@ -253,7 +253,7 @@
   proj_img: <div class="proj-img" id="projImg_6"><img src="./img/karp/1.png" /></div>
 
 - layout: top-middle
-  name: 의약품 안전관리책임자 교육 시스템
+  name: 한국의약품안전관리원 의약품 안전관리책임자 교육 시스템
   link: 
   # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
