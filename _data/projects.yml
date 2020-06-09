@@ -30,7 +30,7 @@
     - cheerio 모듈로 전체 드래그를 이용한 상품 정보 스크래핑
     - puppeteer 모듈로 상품 페이지 URL 접근으로 상품 정보 크롤링 구현
     - cache 메모리와 SMS 발송을 이용한 휴대폰 번호 인증, 주문 관련 내용 카카오 알림톡 기능 구현
-    - 네이버 파파고 NMT API를 이용한 번역, 로마자 변환
+    - 네이버 파파고 NMT API를 이용한 상품 데이터 번역, 로마자 변환
     - 네이버 아이디로 로그인 적용
     - multer를 이용한 업로드 구현
     - summernote를 이용한 게시판 작성, tui-grid를 이용한 리스트, 공통 게시판 구현
@@ -98,7 +98,7 @@
   description: | # this will include new lines to allow paragraphs
     <b>프로젝트 개요</b>
     - 입문부터 상급코스까지 다양한 컨텐츠를 통해 한글을 보다 쉽게 배울 수 있도록 서비스 제공
-    - 학습하는 챕터 북마크 기능와 단어 저장 기능 관리
+    - 학습하는 챕터 북마크 기능과 단어 저장 기능 관리
     - 학습하는 스터디마다 로그를 남겨 학습 히스토리 관리
     - 챕터 별 테스트를 통한 성적 통계 관리
     - 코스 별 테스트를 통해 점수를 기록하여 실력 관리
@@ -219,8 +219,8 @@
   link: 
   # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
-    의약품 부작용 피해구제에 대한 신청/접수 하면 상태에 따라<br/>
-    신청/접수 – 접수대기 – 조사 – 조회 – 반려로 나타나고 사용자가 처리결과를 조회하는 시스템 
+    의약품 부작용 피해구제에 대한 신청을 하면 상태에 따라<br/>
+    접수대기 – 조사 – 조회 – 반려로 나타나고 사용자가 처리결과를 조회하는 시스템 
 
   description: | # this will include new lines to allow paragraphs
     <b>프로젝트 개요</b>
@@ -236,17 +236,17 @@
     <br/>
 
     <b>맡은 역할</b>
-    - Oracle 데이터베이스 작업
-    - 컨텐츠 및 통합 게시판, 팝업창 관리, 회원관리, 메뉴관리 등 솔루션의 전반적인 작업
-    - 피해구제 신청/접수,접수대기 등 view 화면 설계
-    - 피해구제에 대한 신청/접수 등록, 수정 프로그램
-    - Jqgrid를 이용한 신청/접수 리스트 프로그램 설계 
+    - Oracle 데이터베이스 기반 구축
+    - 컨텐츠 및 통합 게시판, 팝업창 관리, 회원관리, 메뉴관리 등 솔루션의 공통 관리 구현
+    - 피해구제 신청/접수,접수대기 등 화면 퍼블리싱
+    - 피해구제에 대한 신청/접수 등록, 수정 기능 구현
+    - Jqgrid를 이용한 신청/접수 리스트 구현
     <br/>
     <br/>
 
     <b>사용기술</b>
     &nbsp;&nbsp;
-    <mark>JS</mark> <mark>jQuery</mark> <mark>JSP</mark> <mark>CSS</mark> <mark>Spring</mark> <mark>Java</mark> <mark>Oracle(11g)</mark> <mark>Jeus</mark>
+    <mark>JS</mark> <mark>jQuery</mark> <mark>JSP</mark> <mark>CSS</mark> <mark>Java</mark> <mark>Spring</mark> <mark>Oracle(11g)</mark> <mark>Jeus</mark>
 
 
   # proj_img: ./img/karp/1.png
@@ -276,10 +276,10 @@
     <br/>
 
     <b>맡은 역할</b>
-    - Oracle 데이터베이스 작업
-    - 컨텐츠 및 통합 게시판, 팝업창 관리, 회원가입 및 관리, 메뉴관리 등 솔루션의 전반적인 작업
-    - 사용자 교육신청, 신청내역, 수강내역·수료증 발급 등 view 화면 퍼블리싱 작업
-    - 사용자 교육 신청 프로그램 구현
+    - Oracle 데이터베이스 기반 구축
+    - 컨텐츠 및 통합 게시판, 팝업창 관리, 회원가입 및 관리, 메뉴관리 등 솔루션의 공통 관리 구현
+    - 사용자 교육신청, 신청내역, 수강내역·수료증 발급 등 화면 퍼블리싱
+    - 사용자 교육 신청 기능 구현
     - JSTL을 이용한 사용자 교육 신청내역 데이터 출력
     - 관리자 코드관리 등록/수정/삭제 프로그램 구현
     - Jqgrid를 이용한 코드관리 목록 프로그램 구현
