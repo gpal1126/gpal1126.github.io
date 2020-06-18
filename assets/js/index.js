@@ -32,16 +32,16 @@ $(function(){
             let length = 0;
             switch(projName){
                 case 'chinag9':
-                    length = 4;
+                    length = 7;
                     break;
                 case 'ourhopes':
-                    length = 2;
+                    length = 7;
                     break;
                 case 'hangul':
                     length = 21;
                     break;
                 case 'surveypro':
-                    length = 1;
+                    length = 3;
                     break;
                 case 'ido':
                     length = 10;
@@ -81,14 +81,14 @@ $(function(){
             slidesPerView: length,
             loop: true,
             freeMode: true,
-            loopedSlides: 5, //looped slides should be the same
+            loopedSlides: 1, //looped slides should be the same
             watchSlidesVisibility: false,
             watchSlidesProgress: true,
         });
         var galleryTop = new Swiper('.gallery-top', {
             spaceBetween: 5,
             loop:true,
-            loopedSlides: 5, //looped slides should be the same
+            loopedSlides: 1, //looped slides should be the same
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
