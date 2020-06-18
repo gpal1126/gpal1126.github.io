@@ -1,5 +1,5 @@
 # gpal1126.github.io
-## [햄의 포트폴리오](https://gpal1126.github.io/)
+## [햄의 포트폴리오 보기](https://gpal1126.github.io/)
 - 햄의 포트폴리오 만들기  
 - 프로젝트 이미지는 swiper를 이용한 슬라이드로 적용  
 
